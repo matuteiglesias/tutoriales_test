@@ -90,9 +90,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Geo-Python - AutoGIS'
-copyright = '2017, Henrikki Tenkanen'
-author = 'Henrikki Tenkanen'
+project = 'Coleccion de Tutoriales con Datos Argentinos'
+copyright = ''
+author = 'Matias Nehuen Iglesias'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -180,8 +180,8 @@ html_context = {
     'display_github': True,
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
-    'github_user': 'Automating-GIS-processes',
-    'github_repo': '2017',
+    'github_user': 'matuteiglesias',
+    'github_repo': 'tutorial-datos-argentinos',
     'github_version': 'master/source/'
 }
 
@@ -200,7 +200,7 @@ html_context = {
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
 #
-html_logo = 'img/logo_hy_geo_135.png'
+html_logo = 'img/logo_localidades_arg.png'
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -277,7 +277,7 @@ html_last_updated_fmt = ""
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr', 'zh'
 #
-# html_search_language = 'en'
+html_search_language = 'es'
 
 # A dictionary with options for the search language support, empty by default.
 # 'ja' uses this config value.
@@ -291,7 +291,7 @@ html_last_updated_fmt = ""
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Geo-Python'
+htmlhelp_basename = 'tutoriales-datos-argentinos'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -317,8 +317,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Geo-Python.tex', 'Geo-Python Documentation',
-     'Henrikki Tenkanen \\& David Whipp', 'manual'),
+    (master_doc, 'tutoriales-datos-argentinos.tex', 'tutoriales-datos-argentinos Documentation',
+     'Matias N. Iglesias', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -359,7 +359,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'geopython', 'GeoPython Documentation',
+    (master_doc, 'tutoriales-datos-argentinos', 'Tutoriales con Datos Argentinos Documentation',
      [author], 1)
 ]
 
@@ -374,8 +374,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GeoPython', 'GeoPython Documentation',
-     author, 'GeoPython', 'One line description of project.',
+    (master_doc, 'tutoriales-datos-argentinos', 'Tutoriales con Datos Argentinos Documentation',
+     author, 'tutoriales-datos-argentinos', 'One line description of project.',
      'Miscellaneous'),
 ]
 
